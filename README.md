@@ -8,9 +8,7 @@
     5. Data Cleaning.ipynb: This file contains the data cleaning code for both the datasets
     6. EDA.ipynb: This file contains the EDA for both Datasets
     7. WebScraping.ipynb: Contains the scraping code for S&P500 dataset. This file might not open on github. However,
-    
         it can be viewed in the "Raw" mode on github. or on this link:
-        
         https://raw.githubusercontent.com/CS-UCR/final-project-wasp/master/WebScraping.ipynb?token=ANLGLKHKUQGY323TMYAYRNC7DZPHA
     
 # Datasets
