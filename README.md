@@ -31,7 +31,7 @@ The primary purpose of this Dataset was to fulfill the Data collection component
 
 * Download the relevant CSV files. They can be either downloaded/ or cloned from our githib repo.
 
-* Open the EDA.ipynb file, which reads the csv files 
+* Open the EDA.ipynb file, which reads the csv files and contains the visuals for the comparison of different attributes.
 
 * Run "Restart Kernel and run all cells" from the 'Kernel' option to run the file
 
