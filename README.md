@@ -29,9 +29,6 @@ The primary purpose of this Dataset was to fulfill the Data collection component
 
 * Download the relevant CSV files. They can be either downloaded/ or cloned from our githib repo.
 
-* Open the EDA.ipynb file, which reads the csv files and contains the visuals for the comparison of different attributes.
+* Open the Data Cleaning.ipynb and EDA.ipynb file,and run them each at a time. First the Data Cleaning file and then the EDA file
 
 * Run "Restart Kernel and run all cells" from the 'Kernel' option to run the file
-
-
-
