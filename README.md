@@ -7,8 +7,8 @@
     4. Cleaned_S&P500: This is the same file as S&P500.csv after performing data cleaning
     5. Data Cleaning.ipynb: This file contains the data cleaning code for both the datasets
     6. EDA.ipynb: This file contains the EDA for both Datasets
-    7. WebScraping.ipynb: Contains the scraping code for S&P500 dataset. This file might not open on github. However,
-        it can be viewed in the "Raw" mode on github. or on the below link:
+    7. FinalWebScraping.ipynb: Contains the scraping code for S&P500 dataset. This file might not open on github. However,
+        it can be viewed on the below link:
         https://raw.githubusercontent.com/CS-UCR/final-project-wasp/master/WebScraping.ipynb?token=ANLGLKHKUQGY323TMYAYRNC7DZPHA
     8. Regression.ipynb: Contains the visuals related to Linear Regression and AshenFelter's Model (Phase3) 
     
@@ -51,9 +51,9 @@ As we moved to Phase3, we used Linear Regression and the Ashenfelter model on th
     
 The in-depth answers to the above questions can be found in the Regression.ipynb notebook with relevant visuals. However, we can summarize some of our analysis below.
 
-When comparing the affect of Number of Employees on the ranking (target), we did not see any meaningful information. The company rankings were widely spread throughout the scatter plot, even though most of the companies almost had the number of employees. We then compared how the revenues of a company affected its ranking. We noticed that as the revenue increases the rank (value) decreases (negatively correlated). The rank value decreases means that the company is ranked higher. Additionally, the profits and assets did not show any meaningful visuals on how they affected a company's ranking. So from this information we were able to conclude that the "Revenue"(feature) had the most weight on how it affects a company's ranking (target). Furthermore, when we applied the Ashenfelter model with the Revenue, Assets, Profits, and Number of employees as features and the Ranking as target, we noticed that all the revenue, profits, and assets were negatively correlated to a company's ranking. This means that the predicted target(rank value in our case) decreases as the features value increases. This means that comapnieswere highly ranked had a higher revenue. While, "Number of Employees" is positvely correlated to the rank.
+When comparing the affect of Number of Employees on the ranking (target), we did not see any meaningful information. The company rankings were widely spread throughout the scatter plot, even though most of the companies almost had the number of employees. We then compared how the revenues of a company affected its ranking. We noticed that as the revenue increases the rank (value) decreases (negatively correlated). The rank value decreases means that the company is ranked higher. Additionally, the profits and assets did not show any meaningful visuals on how they affected a company's ranking. So from this information we were able to conclude that the "Revenue"(feature) had the most weight on how it affects a company's ranking (target). Furthermore, when we applied the Ashenfelter model with the Revenue, Assets, Profits, and Number of employees as features and the Ranking as target, we noticed that all the revenue, profits, and assets were negatively correlated to a company's ranking. This means that the predicted target(rank value in our case) decreases as the features value increases. This means that comapanies that were highly ranked had a higher revenue. However, the "Number of Employees" was positvely correlated to the rank.
 
 # Problems we encountered during the project
 
-The biggest problem we encountered was related to web-scraping on which we invested alot of time. However, we soon realized that the Fortune500 website had javascript enabled content (dynamic), hence, it was not scrapable with the current resources/libraries we had. Thus, we went ahead and scraped the S&P500 dataset from the following url: https://www.slickcharts.com/sp500
+The biggest problem we encountered was related to web-scraping on which we invested alot of time. However, we realized that the Fortune500 website had javascript enabled content (dynamic), hence, it was not scrapable with the current resources/libraries we had. Thus, we went ahead and scraped the S&P500 dataset from the following url: https://www.slickcharts.com/sp500
 
