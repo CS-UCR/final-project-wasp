@@ -2,21 +2,21 @@
 
 # Essential Files 
     1. Fortune.csv : This file contains our primary dataset
-    2. CleanedFortune.csv: This file is the same file as Fortune.csv after performing data cleaning
+    2. CleanedFortune.csv: This file is the same file as Fortune.csv after performing data cleaning (Phase2)
     3. S&P500.csv: This file is our secondary dataset, obtained by scraping.
-    4. Cleaned_S&P500: This is the same file as S&P500.csv after performing data cleaning
-    5. Data Cleaning.ipynb: This file contains the data cleaning code for both the datasets
-    6. EDA.ipynb: This file contains the EDA for both Datasets
-    7. FinalWebScraping.ipynb: Contains the scraping code for S&P500 dataset. This file might not open on github. However,
+    4. Cleaned_S&P500: This is the same file as S&P500.csv after performing data cleaning (Phase2)
+    5. Data Cleaning.ipynb: This file contains the data cleaning code for both the datasets (Phase2)
+    6. EDA.ipynb: This file contains the EDA for both Datasets (Phase 2 & 3)
+    7. FinalWebScraping.ipynb (Phase2): Contains the scraping code for S&P500 dataset. This file might not open on github. However,
         it can be viewed on the below link:
         https://raw.githubusercontent.com/CS-UCR/final-project-wasp/master/WebScraping.ipynb?token=ANLGLKHKUQGY323TMYAYRNC7DZPHA
     8. Regression.ipynb: Contains the visuals related to Linear Regression and AshenFelter's Model (Phase3) 
     
-# Datasets
+# Datasets (Phase2)
 
 In our project, we have obtained two Datasets. The primary Dataset is Fortune500 which containes the information of the top 500 companies in the years 2017, 2018, and 2019. This dataset provides all the essential financials of a company, such as the value of its revenues, value of its assets, their profits/losses, number of employees at each company, and various other information. Our primary analysis is done on this dataset. Our analysis includes the comparison of the several different attributes of each company. For instance, one of our analysis included on how how the companies profits are correlated to their Revenues. We obtained this dataset online which was readily available to download.
 
-# Scraper
+# Scraper (Phase2)
 
 Our second Dataset was obtained by web scraping. This scraper obtained the information about the S&P 500 companies and how their stock prices have fluctuated from each day's trading session. The data scraped included the name of the company, its stock symbol, the weight, the price, the change in the price from the previous trading day, as well as the percentage change in price. The entire dataset was on one page, hence, there was no need to iterate through different pages while scraping the data.
 
